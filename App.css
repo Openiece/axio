@@ -1,0 +1,39 @@
+.App {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cardContainer {
+    width: 300px;
+    height: 500px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  .cardImage {
+    width: 300px;
+    height: 300px;
+  }
+  .comment {
+    width: 200px;
+    height: 40px;
+  }
+  .button1 {
+    background-color: rgb(0, 204, 255);
+    border: none;
+    height: 40px;
+    width: 70px;
+    position: absolute;
+  }
+  .button2 {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    height: 20px;
+    width: 50px;
+    position: absolute;
+    display: flex;
+    gap: 30px;
+  }
